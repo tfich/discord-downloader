@@ -1,5 +1,5 @@
 {
-  "name": "discord-success",
+  "name": "discord-downloader",
   "description": "Downloads a desired number of pictures previously posted in a Discord channel.",
   "main": "index.js",
   "scripts": {
