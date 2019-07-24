@@ -1,6 +1,6 @@
 {
   "name": "discord-success",
-  "description": "Downloads a desired amount of pictures previously posted in a Discord channel.",
+  "description": "Downloads a desired number of pictures previously posted in a Discord channel.",
   "main": "index.js",
   "scripts": {
     "start": "node ."
@@ -9,6 +9,8 @@
   "dependencies": {
     "discord.js": "^11.5.1",
     "dotenv": "^8.0.0",
+    "image-downloader": "^3.4.2",
+    "moment-timezone": "^0.5.26",
     "prompts": "^2.1.0",
     "signale": "^1.4.0"
   }

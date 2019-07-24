@@ -11,7 +11,7 @@ async function fetchPics(channel, numPics) {
         lastReqLength = messages.length
         lastMsgID = messages.slice(-1)[0].id
     }
-    return picUrls
+    return picUrls.length > numPics ? picUrls.slice(0, numPics) : picUrls
 }
 
 function getPicUrls(message) {
