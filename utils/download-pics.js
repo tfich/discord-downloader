@@ -8,7 +8,7 @@ const DOWNLOAD_PATH = path.join(__dirname, '../downloads')
 if (!fs.existsSync(DOWNLOAD_PATH)) { fs.mkdirSync(DOWNLOAD_PATH) }
 
 async function downloadPics(picUrls) {
-    const newFolder = `${DOWNLOAD_PATH}/${moment().format('lll')}`
+    const newFolder = `${DOWNLOAD_PATH}/${moment().format('DDD')}`
     if (!fs.existsSync(newFolder)) { fs.mkdirSync(newFolder) }
 
     let c = 0
